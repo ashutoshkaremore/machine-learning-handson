@@ -1,4 +1,4 @@
-# 🧠 Machine Learning Projects
+# 🧠 Machine Learning Handson
 
 Welcome to my collection of **Machine Learning** projects!  
 This repository showcases hands-on implementations of various ML techniques, data preprocessing workflows, model training pipelines, and end-to-end use case solutions.
