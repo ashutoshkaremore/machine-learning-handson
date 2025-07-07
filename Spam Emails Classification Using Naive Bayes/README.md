@@ -7,6 +7,7 @@ The Spam Mail Classification project is a web-based application that uses `Naive
 <b>Machine Learning Model:</b> Uses a Naive Bayes ML Model trained on a large dataset.
 
 <h3>Technologies Used:</h3>
+
 `scikit-learn`, `Naive Bayes Algorithm`, `Numpy`, `Pandas`, `Flask`, `HTML`, `CSS`
 
 <h3>Working Screenshots:</h3>
