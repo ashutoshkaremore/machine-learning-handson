@@ -17,4 +17,7 @@ The Spam Mail Classification project is a web-based application that uses ``Naiv
 <h3>
   Working Screenshots : <br>
 </h3>
-![screenshot]([Spam Emails Classification Using Naive Bayes/screenshots/Screenshot 2025-07-07 194842.png](https://github.com/ashutoshkaremore/machine-learning-handson/blob/main/Spam%20Emails%20Classification%20Using%20Naive%20Bayes/screenshots/Screenshot%202025-07-07%20194842.png))
+![Screenshot 2025-07-07 194856](https://github.com/user-attachments/assets/bb03a173-9bed-420e-9625-05ba834a2abf)
+![Screenshot 2025-07-07 194842](https://github.com/user-attachments/assets/12fa1434-8cf1-43dd-9912-d03a205e4c53)
+
+
