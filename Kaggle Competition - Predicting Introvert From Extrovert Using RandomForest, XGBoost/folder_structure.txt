@@ -1,0 +1,44 @@
+ml_project/
+├── app/
+│   ├── main.py                 # FastAPI entry point
+│   ├── api/                    
+│   │   ├── endpoints/          
+│   │   │   ├── predict.py      # Inference route
+│   │   │   └── health.py       # Health check
+│   │   └── __init__.py
+│   ├── core/                   
+│   │   └── config.py           # Configuration: env vars, API settings
+│   ├── models/                 
+│   │   └── model.joblib        # Trained ML model
+│   ├── schemas/                
+│   │   ├── input_schema.py     # Pydantic request model
+│   │   └── output_schema.py    # Pydantic response model
+│   ├── services/
+│   │   └── predict_service.py  # Model loading & prediction logic
+│   └── utils/                  
+│       └── preprocess.py       # Scaler, encoder, etc.
+│
+├── ml_pipeline/
+│   ├── data/
+│   │   ├── raw/                # Raw input data
+│   │   ├── processed/          # Cleaned/encoded data
+│   ├── notebooks/              # Exploratory Data Analysis, experiments
+│   ├── training/               
+│   │   ├── train.py            # Model training script
+│   │   ├── evaluate.py         # Evaluation metrics
+│   │   ├── config.yaml         # Training configs
+│   └── artifacts/
+│       └── model.joblib        # Output model (used in app/)
+│
+├── tests/
+│   ├── test_api.py             # API tests
+│   └── test_model.py           # Model loading/prediction tests
+│
+├── Dockerfile                 # Production Docker image
+├── requirements.txt           # Dependencies
+├── .env                       # Environment variables
+├── .gitignore                 
+├── README.md                  
+└── run.sh                     # Start server (with uvicorn)
+
+Delete after Implementation

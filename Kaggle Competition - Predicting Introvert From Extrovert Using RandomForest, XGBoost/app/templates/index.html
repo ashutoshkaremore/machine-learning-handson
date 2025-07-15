@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introvert/Extrovert Predictor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6; /* Light gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh; /* Reduced height by 20% from 100vh */
+            margin: 0;
+            padding:30px;
+            
+        }
+        .container {
+            width: 500px; /* Slightly smaller width for a cleaner look */
+            background-color: #ffffff; /* White background for the form */
+            border: 1px solid #e0e0e0; /* Subtle border */
+            border-radius: 8px;
+            padding: 40px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow */
+        }
+        h1 {
+            text-align: center;
+            color: #333333;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555555;
+            font-weight: 600;
+        }
+        input[type='text'] {
+            width: calc(100% - 20px); /* Adjust for padding */
+            padding: 12px 10px;
+            
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Include padding in width */
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        input[type='text']:focus {
+            border-color: #007bff; /* Highlight on focus */
+            outline: none;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #007bff; /* Blue button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Predict the Introverts from the Extroverts</h1>
+        <form>
+            <label for="timeAlone">Time Spent Alone (hours/day):</label>
+            <input type="text" id="timeAlone" placeholder="e.g., 5">
+
+            <label for="stageFear">Stage Fear (yes/no):</label>
+            <input type="text" id="stageFear" placeholder="e.g., yes">
+
+            <label for="socialAttendance">Social Event Attendance (times/month):</label>
+            <input type="text" id="socialAttendance" placeholder="e.g., 2">
+
+            <label for="goingOutside">Going Outside (times/week):</label>
+            <input type="text" id="goingOutside" placeholder="e.g., 3">
+
+            <label for="drainedSocializing">Drained After Socializing (yes/no):</label>
+            <input type="text" id="drainedSocializing" placeholder="e.g., yes">
+
+            <label for="friendsCircle">Friends Circle Size (number of close friends):</label>
+            <input type="text" id="friendsCircle" placeholder="e.g., 3">
+
+            <label for="postFrequency">Post Frequency (posts/week on social media):</label>
+            <input type="text" id="postFrequency" placeholder="e.g., 1">
+        </form>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
